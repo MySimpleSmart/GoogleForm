@@ -37,7 +37,7 @@
           if (result.result === 'success') {
             alert('Form submitted successfully!');
           } else {
-            alert('There was an error submitting the form.');
+            alert('There was an error submitting the form: ' + result.error);
           }
         })
         .catch(error => {
